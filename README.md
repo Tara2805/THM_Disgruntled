@@ -24,3 +24,21 @@ Read the file and filter the search
 
 #### Flag 1 : /usr/bin/apt install dokuwiki
 #### Flag 2 : /home/cybert
+
+So we're told that a user was created after this previous package was implemented. We just need to adjust the grep filter search to 'adduser'
+
+![alt text](adduser.png)
+
+#### Flag 3 : it-admin
+
+Now for the next flag we are told *A user was then later given sudo priveleges. When was the sudoers file updated? (Format: Month Day HH:MM:SS)*
+- Again just adjust the grep filter : cat auth.log | grep visudo
+- Flag 4 : seen in image
+
+![alt text](time.png)
+
+*A script file was opened using the "vi" text editor. What is the name of this file?*
+- Adjust the grep filter : cat auth.log | grep vi
+- Flag 5 : seen in image
+
+![alt text](vi.png)
