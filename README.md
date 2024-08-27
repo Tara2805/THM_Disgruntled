@@ -79,7 +79,7 @@ Now to find the next flag we need to read the /bin/os-update.sh file
 
 ![alt text](txt.png)
 
-#### Flag 8 : goodbye.txt
+#### Flag 9 : goodbye.txt
 
 We have already found the location of the script and the timer to execute previously in /etc/crontab file. (crontab.png)
 - We need to convert the scedule using an online translator https://crontab.guru/
@@ -87,7 +87,7 @@ We have already found the location of the script and the timer to execute previo
 
 ![alt text](schedule.png)
 
-#### Flag 8 : 08:00 AM
+#### Flag 10 : 08:00 AM
 
 ## Conclusion
 
