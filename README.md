@@ -16,6 +16,7 @@ CyberT wants us to check if this person has done anything malicious to any of th
 Lets have a poke around at the privileged commands that were run.
 - cd var/log
 - ls
+
 Read the file and filter the search
 - cat /var/log/auth.log | grep install
 
